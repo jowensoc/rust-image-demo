@@ -1,5 +1,5 @@
 fn main() {
-    //rotate_images();
+    rotate_images();
 
     add_filter();
 }
