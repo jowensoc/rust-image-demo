@@ -5,6 +5,15 @@ A small demo using Rust Image
 
 - Filter - Apply a filter to an image
 
+# cargo commands
+Compile the project and run the demo using the following commands:
+```
+cargo build
+```
+
+```
+cargo run
+```
 
 ## Images
 Source and credits for images used in this demo:
