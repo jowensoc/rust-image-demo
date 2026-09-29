@@ -30,8 +30,9 @@ fn rotate(hue_rotate: i32) {
 fn add_filter() {
     generate_filtered_images("mars".to_string(), &[0.0, -1.0, 0.0, -1.0, 5.0, -1.0, 0.0, -1.0, 0.0]);
     generate_filtered_images("saturn".to_string(), &[1.0, 0.5, 1.0, -1.0, 5.0, -1.0, 1.0, 0.5, 1.0]);
-    generate_filtered_images("neptune".to_string(), &[3.0, 3.0, 3.0, 2.5, 1.5, 2.5, 3.0, 3.0, 3.0]);
-
+    generate_filtered_images("neptune".to_string(), &[-1.0, -1.0, -1.0, -1.0, 9.0, -1.0, -1.0, -1.0, -1.0]);
+    generate_filtered_images("fives".to_string(), &[5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0]);
+    generate_filtered_images("minus-fives".to_string(), &[-5.0,-5.0,-5.0,-5.0,-5.0,-5.0,-5.0,-5.0,-5.0]);
 }
 
 fn generate_filtered_images(filter_name: String, custom_kernel: &[f32; 9]) {
